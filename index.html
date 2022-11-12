@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DEVBHOOMI UTTARAKHAND - Abhi Champs</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="banner">
+        <img src="Uttarakhand-Rajya-Color.png" class="logo">
+        <div class="banner-text">
+            <h1>
+                LETS EXPLORE UTTARAKHAND</h1>
+                <p>Lets see some of the best places to visit in uttarakhand</p>
+            <div class="banner-btn">
+                <a href="jj.html"><span></span>Explore</a>
+                <a href="#"><span></span>Read More</a>
+            </div>
+        </div>  
+        </section>
+        <div id="sidenav">
+            <nav>
+                <ul>
+                    <li>
+<a href="#">HOME</a></li>
+<li><a href="#">Donations</a></li>
+<LI><a href="#">Reviews</a>
+        
+                    </li>
+                </ul>
+            </nav>
+            
+        </div>
+        <div id="manuBtn">
+            <img src="menuu.jfif" id="menu">
+        </div>
+
+        
+        <script>
+            var manuBtn= document.getElementById("manuBtn")
+            var sidenav= document.getElementById("sidenav")
+            var menu = document.getElementById("menu")
+
+            manuBtn.onclick=function(){
+                if(sidenav.style.right == "-250px"){
+                    sidenav.style.right = "0";
+                }
+                else{
+                    sidenav.style.right = "-250px";
+                }
+            }
+        </script>
+    
+    </body>
+</html>
